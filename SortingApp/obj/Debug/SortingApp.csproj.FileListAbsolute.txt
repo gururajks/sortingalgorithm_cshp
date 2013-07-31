@@ -1,0 +1,8 @@
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\bin\Debug\SortingApp.exe.config
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\bin\Debug\SortingApp.exe
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\bin\Debug\SortingApp.pdb
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\bin\Debug\Sorting.dll
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\bin\Debug\Sorting.pdb
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\obj\Debug\SortingApp.csprojResolveAssemblyReference.cache
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\obj\Debug\SortingApp.exe
+c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\SortingApp\obj\Debug\SortingApp.pdb
