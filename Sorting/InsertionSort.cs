@@ -17,33 +17,20 @@ namespace Sorting
         public override void implementSort()
         {
             startTime();
-            int[] tempArray = new int[_numberArray.Length];
-            for (int i = 0; i < _numberArray.Length; i++)
+            for (int i = 1; i < _numberArray.Length; i++)
             {
-                for (int j = 0; j < i; j++)
+                int valueToBeInserted = _numberArray[i];
+                int indexPosition = i;
+                while (_numberArray[i] < _numberArray[indexPosition-1])
                 {
-                    if (_numberArray[i] < tempArray[j])
-                    {
-                        moveElements(j + 1, i, tempArray);
-                        tempArray[j] = _numberArray[i];
-                    }
+                    _numberArray[indexPosition] = _numberArray[indexPosition - 1];
+                    indexPosition = indexPosition - 1;
                 }
+                _numberArray[indexPosition] = valueToBeInserted;
             }
-            tempArray.CopyTo(_numberArray, 0);
             endTime(); 
         }
 
-        private void moveElements(int left_range, int right_range, int[] tempArray)
-        {
-            for (int x = right_range - 1; x >= left_range - 1; x--)
-            {
-                tempArray[x + 1] = tempArray[x];
-            }
-        }
-
-     
-
-        
-
+       
     }
 }

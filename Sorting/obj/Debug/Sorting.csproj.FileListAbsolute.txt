@@ -2,4 +2,4 @@ c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\Sorting\bin\De
 c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\Sorting\bin\Debug\Sorting.pdb
 c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\Sorting\obj\Debug\Sorting.dll
 c:\users\gururaj\documents\visual studio 2012\Projects\SortingApp\Sorting\obj\Debug\Sorting.pdb
-C:\Users\Gururaj\Documents\Visual Studio 2012\Projects\SortingApp\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache
+C:\Users\Gururaj\documents\visual studio 2012\Projects\SortingApp\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache

@@ -14,17 +14,16 @@ namespace SortingApp
         static void Main(string[] args)
         {
             string line;
-            int count = 0;
-            int[] numbers = { 5, 1, 6, 7, 2, 3, 4, 9, 8 };
-            //int[] numbers = new int[100000];
-            //StreamReader file = new StreamReader("C:/Users/Gururaj/Documents/Visual Studio 2012/IntegerArray.txt");
-            //while((line = file.ReadLine()) != null)
-            //{
-            //    numbers[count] = Int32.Parse(line);
-            //    count++;
-            //}
+            int count = 0;            
+            int[] numbers = new int[100000];
+            StreamReader file = new StreamReader("C:/Users/Gururaj/Documents/Visual Studio 2012/IntegerArray.txt");
+            while ((line = file.ReadLine()) != null)
+            {
+                numbers[count] = Int32.Parse(line);
+                count++;
+            }
 
-            Sort sortArray = new InsertionSort(numbers);
+            Sort sortArray = new SelectionSort(numbers);
             sortArray.implementSort();
             int[] sortedArray = sortArray.getSortedArray();
             for (int i = 0; i < sortedArray.Length; i++)

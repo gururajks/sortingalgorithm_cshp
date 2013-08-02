@@ -8,6 +8,10 @@ namespace Sorting
 {
     public class MergeSort : Sort
     {
+        public MergeSort(int[] numberArray)
+        {
+            _numberArray = numberArray;
+        }
 
         public override void implementSort()
         {
