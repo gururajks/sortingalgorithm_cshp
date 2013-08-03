@@ -23,7 +23,7 @@ namespace SortingApp
                 count++;
             }
 
-            Sort sortArray = new SelectionSort(numbers);
+            Sort sortArray = new QuickSort(numbers);
             sortArray.implementSort();
             int[] sortedArray = sortArray.getSortedArray();
             for (int i = 0; i < sortedArray.Length; i++)
@@ -31,7 +31,7 @@ namespace SortingApp
                 Console.Write("{0} ", sortedArray[i]);
             }
             Console.WriteLine();
-            Console.Write("Elapsed Time - Insertion Sort: {0}", sortArray.elapsedTime());
+            Console.Write("Elapsed Time - Quick Sort: {0}", sortArray.elapsedTime());
             Console.ReadLine();
         }
     }
