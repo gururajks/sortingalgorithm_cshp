@@ -16,14 +16,20 @@ namespace SortingApp
             string line;
             int count = 0;            
             int[] numbers = new int[100000];
-            StreamReader file = new StreamReader("C:/Users/Gururaj/Documents/Visual Studio 2012/IntegerArray.txt");
-            while ((line = file.ReadLine()) != null)
+            try
             {
-                numbers[count] = Int32.Parse(line);
-                count++;
+                StreamReader file = new StreamReader("C:/Users/Gururaj/Documents/Visual Studio 2012/IntegerArray.txt");
+                while ((line = file.ReadLine()) != null)
+                {
+                    numbers[count] = Int32.Parse(line);
+                    count++;
+                }
             }
-
-            Sort sortArray = new QuickSort(numbers);
+            catch (FileNotFoundException e)
+            {
+                Console.Write("File not found");
+            }
+            Sort sortArray = new InsertionSort(numbers);
             sortArray.implementSort();
             int[] sortedArray = sortArray.getSortedArray();
             for (int i = 0; i < sortedArray.Length; i++)
@@ -32,6 +38,8 @@ namespace SortingApp
             }
             Console.WriteLine();
             Console.Write("Elapsed Time - Quick Sort: {0}", sortArray.elapsedTime());
+            Console.WriteLine();
+            
             Console.ReadLine();
         }
     }
