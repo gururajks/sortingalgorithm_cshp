@@ -29,7 +29,7 @@ namespace SortingApp
             {
                 Console.Write("File not found");
             }
-            Sort sortArray = new InsertionSort(numbers);
+            Sort sortArray = new QuickSort(numbers);
             sortArray.implementSort();
             int[] sortedArray = sortArray.getSortedArray();
             for (int i = 0; i < sortedArray.Length; i++)

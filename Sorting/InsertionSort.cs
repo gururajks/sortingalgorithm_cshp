@@ -29,7 +29,7 @@ namespace Sorting
                 _numberArray[indexPosition] = valueToBeInserted;
             }
             endTime(); 
-        }
+        } 
 
        
     }
