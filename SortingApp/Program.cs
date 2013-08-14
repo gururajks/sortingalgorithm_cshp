@@ -13,7 +13,7 @@ namespace SortingApp
     {
         static void Main(string[] args)
         {
-            string line;
+            /*string line;
             int count = 0;            
             int[] numbers = new int[100000];
             try
@@ -40,7 +40,7 @@ namespace SortingApp
             Console.Write("Elapsed Time - Quick Sort: {0}", sortArray.elapsedTime());
             Console.WriteLine();
             
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
     }
 }
